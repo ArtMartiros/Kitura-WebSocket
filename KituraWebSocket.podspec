@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.module_name  = 'KituraNet'
   s.source   = { :git => "https://github.com/ArtMartiros/Kitura-WebSocket", :tag => s.version }
   s.source_files = 'Sources/**/*.swift'
-  s.dependency 'KituraNet', :commit => 'b0905bc'
+  s.dependency 'KituraNet', :git => "https://github.com/IBM-Swift/KituraKit.git", :commit => '046c106'
 end
